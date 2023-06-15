@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/server.ts",
-    "cache": "ts-node src/cache.ts"
+    "server": "ts-node src/server.ts",
+    "cache": "ts-node src/cache.ts",
+    "cache-final": "ts-node src/cache-final.ts"
+  },
+  "engines": {
+    "node": "^14 || ^16 || ^18"
   },
   "keywords": [],
   "author": "Rowadz",
