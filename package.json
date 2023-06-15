@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node src/server.ts",
+    "cache": "ts-node src/cache.ts"
   },
   "keywords": [],
   "author": "Rowadz",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/hapi__hapi": "^21.0.0",
+    "@types/node": "^20.3.1",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "axios": "^1.4.0",
+    "querystring": "^0.2.1"
+  }
 }
